@@ -1,0 +1,26 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+venv/
+
+# Ignore IDE-related files
+.idea/
+.vscode/
+
+# Ignore datasets (if large)
+data/
+
+# Ignore logs & temporary files
+*.log
+*.tmp
+
+# Ignore Hugging Face Spaces cache (if any)
+.huggingface/
+
+# Ignore model weights (if any)
+calorie-calculator/
+.ipynb_checkpoints/
+app/model/model.pkl
+
